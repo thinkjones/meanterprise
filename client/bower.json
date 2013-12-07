@@ -11,7 +11,7 @@
     "tests"
   ],
   "authors": [
-    "Gene ConroyJones <gjones@tipmarks.com>"
+    "Gene ConroyJones <drgenejones@gmail.com>"
   ],
   "license": "MIT",
   "private": true,
@@ -27,7 +27,10 @@
     "es5-shim": "git://github.com/kriskowal/es5-shim.git#~2.0.8",
     "font-awesome": "~3.2.1",
     "hallo": "~1.0.4",
-    "json3": "git://github.com/bestiejs/json3.git#~3.2.4"
+    "json3": "git://github.com/bestiejs/json3.git#~3.2.4",
+    "underscore": "~1.5.2",
+    "angular-route": "~1.2.4",
+    "bootstrap": "~3.0.3"
   },
   "resolutions": {
     "angular": "~1.2.0"
