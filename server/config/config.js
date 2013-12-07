@@ -3,7 +3,7 @@ module.exports = {
 	app: {
 		name: 'meanp-seed'
 	},
-    baseUrl: "radiant-wave-5876.herokuapp.com",
+    baseUrl: "<replace with productionurl - acme.com>",
 	port: process.env.PORT,
     ip: 0,
 	db: 'mongodb://<location of your production mongodb>',
