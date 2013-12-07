@@ -7,7 +7,6 @@ server/node_modules/grunt*/***/*
 .DS_Store
 client/src/.buildignore
 client/src/.htaccess
-.bowerrc
 .editorconfig
 .gitattributes
 .idea/
