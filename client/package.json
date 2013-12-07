@@ -1,8 +1,8 @@
 {
   "author": {
-    "name": "Hal Shades"
+    "name": "Jane Doe"
   },
-  "name": "shadesofhal-client",
+  "name": "client",
   "version": "0.0.1",
   "private": true,
   "dependencies": {},
@@ -14,7 +14,7 @@
     "request": "~2.22.0"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "shadesofhal-client@0.0.1",
+  "_id": "client@0.0.1",
   "dist": {
     "shasum": "f809439e14bccd79174b947568f5b097abfd01f9"
   },
