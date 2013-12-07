@@ -1,0 +1,23 @@
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Acme Inc.</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li ng-class="navClass('home')"><a ng-href="#">Home</a></li>
+                <li ng-class="navClass('projects')" ng-show="isAuthenticated()"><a ng-href="#projects">Portfolio</a></li>
+            </ul>
+            <div class="navbar-form navbar-right" ng-switch="isAuthenticated()">
+                <a class="btn btn-success" href="/auth/google" ng-switch-when="false">Sign in with Google</a>
+                <a class="btn btn-success" href="/logout" ng-switch-when="true">Logout</a>
+            </div>
+        </div><!--/.navbar-collapse -->
+    </div>
+</div>

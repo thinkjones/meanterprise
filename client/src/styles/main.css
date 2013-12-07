@@ -1,0 +1,60 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 800px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 60px;
+}
+
+.hero-unit h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.viewSpacing {
+    margin-top: 80px;
+}
+
+.table-header-right {
+    position: absolute;
+    right: 10px;
+}
+
+.relative {
+    position: relative;
+}
+
+.project {
+    position: relative;
+    display: inline-block;
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 150px;
+    min-width: 150px;
+    border: 1px solid #add8e6;
+    padding: 3px;
+    border-radius: 3px;
+    margin: 10px 20px;
+    color: black;
+
+}
+
+.project .name {
+    display: block;
+    font-size: 18px;
+}
+
+.project .footer {
+    position: absolute;
+    bottom: 0px;
+}

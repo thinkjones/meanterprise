@@ -1,0 +1,35 @@
+{
+  "name": "bower init -f",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "authors": [
+    "Gene ConroyJones <gjones@tipmarks.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.0",
+    "angular-cookies": "git://github.com/angular/bower-angular-cookies.git#~1.0.7",
+    "angular-mocks": "git://github.com/angular/bower-angular-mocks.git#~1.0.7",
+    "angular-resource": "git://github.com/angular/bower-angular-resource.git#~1.0.7",
+    "angular-sanitize": "git://github.com/angular/bower-angular-sanitize.git#~1.0.7",
+    "angular-scenario": "git://github.com/angular/bower-angular-scenario.git#~1.0.7",
+    "angular-ui": "git://github.com/angular-ui/angular-ui.git#~0.4.0",
+    "bootstrap-sass": "git://github.com/jlong/sass-twitter-bootstrap.git#~2.3.1",
+    "es5-shim": "git://github.com/kriskowal/es5-shim.git#~2.0.8",
+    "font-awesome": "~3.2.1",
+    "hallo": "~1.0.4",
+    "json3": "git://github.com/bestiejs/json3.git#~3.2.4"
+  },
+  "resolutions": {
+    "angular": "~1.2.0"
+  }
+}

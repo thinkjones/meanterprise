@@ -1,0 +1,44 @@
+<div class="container viewSpacing">
+<div ng-model="projects">
+
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading relative">
+            <div class="table-header-right">
+                Search:
+                <input ng-model="query">
+                Sort by:
+                <select ng-model="orderProp">
+                    <option value="title">Alphabetical</option>
+                    <option value="udpated">Newest</option>
+                </select>
+            </div>
+
+            Your Projects
+
+
+        </div>
+
+
+        <!-- Table -->
+        <div class="table">
+            <div class="project" ng-repeat="project in projects | filter:query | orderBy:orderProp">
+                <project-link class="name" ng-model="project">{{project.name}}</project-link>
+                <div class="footer">
+                    <em>{{project.updated | date:'MMM d yyyy - hh:mm:a' }}</em>
+                    <a class="btn-link glyphicon glyphicon-remove" ng-model="project" ng-click="deleteProject()"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Add New</h2>
+
+    <form novalidate ng-submit="addNewProject()">
+        <input type="text" ng-model="newProject.name" placeholder="Project Name">
+        </input>
+        <input type="submit" id="submit" value="Submit"/>
+    </form>
+
+</div>
+</div>

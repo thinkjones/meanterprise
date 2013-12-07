@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "Hal Shades"
+  },
+  "name": "shadesofhal-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "server.js"
+  },
+  "dependencies": {
+    "express": "~3.3.8",
+    "jade": "~0.35.0",
+    "mongoose": "~3.6.20",
+    "passport": "~0.1.17",
+    "passport-google": "~0.3.0",
+    "request": "~2.22.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-develop": "~0.1.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-compass": "~0.2.0",
+    "request": "~2.22.0"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "shadesofhal-server@0.0.1",
+  "dist": {
+    "shasum": "25b528227760b66c3bb365d347723f8f050879e5"
+  },
+  "_from": "./server",
+  "description": "ERROR: No README data found!"
+}
