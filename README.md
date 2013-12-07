@@ -17,17 +17,25 @@ Install these:
 * Mongo
 
 Install client dependencies:
-` cd client
+
+```
+cd client
+
 npm install
+
 bower install
-`
+```
 
 Install server dependencies:
-` cd server
+
+```
+cd server
+
 npm install
-`
+```
 
 Start server:
+
 `node server.js DEV`
 
 Navigate to home screen:
