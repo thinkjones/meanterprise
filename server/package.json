@@ -1,8 +1,8 @@
 {
   "author": {
-    "name": "Hal Shades"
+    "name": "Jane Doe"
   },
-  "name": "shadesofhal-server",
+  "name": "shades-server",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -28,7 +28,7 @@
     "npm": "1.2.x"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "shadesofhal-server@0.0.1",
+  "_id": "shadesofhal@0.0.1",
   "dist": {
     "shasum": "25b528227760b66c3bb365d347723f8f050879e5"
   },
