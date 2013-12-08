@@ -42,10 +42,10 @@ Navigate to home screen:
 http://localhost:3000
 
 
-Client Side Authentication
+Client Route Security
 --------------------------
 
-Client Side Authentication (CSA) is managed using a pattern inspired by the [angular-client-side-auth](https://github.com/fnakstad/angular-client-side-auth) repository.  The short description of the CSA pattern is:
+Client Side Security (CSS) is managed using a pattern inspired by the [angular-client-side-auth](https://github.com/fnakstad/angular-client-side-auth) repository.  The short description of the CSA pattern is:
 
 1) Add access role to your routes:
 
@@ -76,6 +76,15 @@ angular.module('app').run(['$rootScope','$location','security', function($rootSc
 
 }]);
 ```
+
+Server Request Security
+--------------------------
+Not yet implemented.  Looking for ideas and strategies to implement this whilst adhering to DRY.
+
+
+Server Authentication Security
+------------------------------
+Implemented using [PassportJS](http://passportjs.org/) using only the passport-google authenticaon strategy at present.
 
 
 
