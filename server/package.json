@@ -18,9 +18,15 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-develop": "~0.1.1",
-    "grunt-contrib-watch": "~0.4.4",
     "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-develop": "~0.1.1",
+    "grunt-karma": "^0.8.3",
+    "grunt-protractor-runner": "^1.0.0",
+    "karma": "^0.12.16",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-jasmine": "^0.1.5",
+    "protractor": "^0.24.2",
     "request": "~2.22.0"
   },
   "engines": {
