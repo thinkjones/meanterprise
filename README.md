@@ -87,6 +87,10 @@ Server Authentication Security
 Implemented using [PassportJS](http://passportjs.org/) using only the passport-google authenticaon strategy at present.
 
 
+Unit and e2e Tests
+------------------------------
+Example unit and e2e tests are added to the project.  These illustrate how automatic testing can be incorporated into the default grunt default workflow.  Simply run the project and any time a source or test file changes the tests will be re-run.
+
 
 ## License
 ```
