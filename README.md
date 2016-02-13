@@ -1,4 +1,4 @@
-Meanp-Seed
+Meanp-Seed  [![Build Status](https://travis-ci.org/thinkjones/meanp-seed.svg?branch=master)](https://travis-ci.org/thinkjones/meanp-seed)
 ==========
 
 This application builds off the many mean-seed example applications by incorporating a client and server side authentication strategy.
