@@ -1,0 +1,7 @@
+language: javascript
+install:
+  - cd server
+  - npm install
+  - cd ../client
+  - npm install
+  - bower install
