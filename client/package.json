@@ -24,5 +24,8 @@
   "dist": {
     "shasum": "f809439e14bccd79174b947568f5b097abfd01f9"
   },
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+  },
   "_from": "./client"
 }
