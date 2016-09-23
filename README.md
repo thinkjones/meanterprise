@@ -14,7 +14,17 @@ Running The Application
 
 Install these:
 * Node
-* Mongo
+
+Setup Mongo
+```
+brew install mongodb
+
+# temp dir for mongo
+mkdir /tmp/mongo
+
+# Start mongo
+mongod --dbpath /tmp/mongo
+```
 
 Install client dependencies:
 
@@ -36,7 +46,9 @@ npm install
 
 Start server:
 
-`node server.js DEV`
+```
+node server.js DEV
+```
 
 Navigate to home screen:
 http://localhost:3000
