@@ -7,4 +7,5 @@ install:
   - npm install
   - cd ../client
   - npm install
+  - cd ../
   - bower install
