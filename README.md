@@ -104,14 +104,6 @@ Unit and e2e Tests
 Example unit and e2e tests are added to the project.  These illustrate how automatic testing can be incorporated into the default grunt default workflow.  Simply run the project and any time a source or test file changes the tests will be re-run.
 
 
-OneNote can help organize your life
-
-▶ Play video now!
-
-		
-▶ School	▶ Work	▶ Home
-Handwrite notes and clip from the web	Syncs to PC, phone, & web	Share plans with family and friends
-
 Continuous Integration CI
 --------------------
 There is a ```.travis.yml``` file for CI at [Travis-CI.com](www.travis-ci.com)
