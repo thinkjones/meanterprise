@@ -1,0 +1,51 @@
+{
+  "name": "bower init -f",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "authors": [
+    "Gene ConroyJones <drgenejones@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.8",
+    "angular-cookies": "~1.5.8",
+    "angular-mocks": "~1.5.8",
+    "angular-resource": "~1.5.8",
+    "angular-sanitize": "~1.5.8",
+    "angular-scenario": "~1.5.8",
+    "angular-ui": "~0.4.0",
+    "bootstrap-sass": "~3.3.7",
+    "es5-shim": "~4.5.9",
+    "font-awesome": "~4.6.3",
+    "hallo": "~1.1.1",
+    "json3": "~3.3.2",
+    "underscore": "~1.8.3",
+    "angular-route": "~1.5.8",
+    "bootstrap": "~3.3.7"
+  },
+  "resolutions": {
+    "angular": "~1.5.8",
+    "angular-cookies": "~1.5.8",
+    "angular-mocks": "~1.5.8",
+    "angular-resource": "~1.5.8",
+    "angular-sanitize": "~1.5.8",
+    "angular-scenario": "~1.5.8",
+    "bootstrap-sass": "~3.3.7",
+    "es5-shim": "~4.5.9",
+    "font-awesome": "~4.6.3",
+    "hallo": "~1.1.1",
+    "json3": "~3.3.2",
+    "underscore": "~1.8.3",
+    "angular-route": "~1.5.8",
+    "bootstrap": "~3.3.7"
+  }
+}
