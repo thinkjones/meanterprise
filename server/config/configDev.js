@@ -8,5 +8,10 @@ module.exports = {
 	port: 3000,
     ip: "127.0.0.1",
 	db: 'mongodb://localhost/meanp-seed-db',
-	model: {}
+	model: {},
+  google: {
+    GOOGLE_CONSUMER_KEY: GOOGLE_CONSUMER_KEY,
+    GOOGLE_CONSUMER_SECRET: GOOGLE_CONSUMER_SECRET
+  }
+
 };
