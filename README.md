@@ -1,61 +1,68 @@
-Meanp-Seed  [![Build Status](https://travis-ci.org/thinkjones/meanp-seed.svg?branch=master)](https://travis-ci.org/thinkjones/meanp-seed)
+Meanterprise  [![Build Status](https://travis-ci.org/thinkjones/meanp-seed.svg?branch=master)](https://travis-ci.org/thinkjones/meanp-seed)
 ==========
 
-This application builds off the many mean-seed example applications by incorporating a client and server side authentication strategy.
+This is a MEAN style application that builds off the typical Hello World seed templates by including common functionality 
+present in many typical Enterprise applications.
 
-M - MongoDB
-E - ExpressJS - Server side application framework
-A - AngularJS - Client side application framework
-N - Node - Package manager
-P - PassportJS - Authentication framework
+* M - MongoDB
+* E - ExpressJS - Server side application framework
+* A - AngularJS - Client side application framework
+* N - Node - Package manager
 
-Running The Application
------------------------
+Additional Features: 
+* Server Side Authentication with PassportJS
+* Client Side Route Security (Logical Security not Real Security)
 
-Install these:
-* Node
+Future Features:
+* Nested routing
+* Tidy CRUD Examples
+* Python and Java backends
 
-Setup Mongo
+# Setup
+
+**Install Node and Npm**
+```
+brew install node
+```
+
+**Install and Setup Mongo**
 ```
 brew install mongodb
 
-# temp dir for mongo
-mkdir /tmp/mongo
-
-# Start mongo
-mongod --dbpath /tmp/mongo
 ```
-
-Install client dependencies:
+**Install dependencies**
 
 ```
-cd client
-
 npm install
 
 bower install
 ```
 
-Install server dependencies:
 
+Start the application
+-----------------------
+
+**Start Mongo**
 ```
-cd server
-
-npm install
+mkdir /tmp/mongo
+mongod --dbpath /tmp/mongo
 ```
 
-Start server:
-
+**Start Application**
 ```
-node server.js DEV
+npm start
 ```
 
 Navigate to home screen:
 http://localhost:3000
 
 
-Client Route Security
---------------------------
+# Enterprise App Features
+
+## Server Authentication Security
+Implemented using [PassportJS](http://passportjs.org/) using only the passport-google authentication strategy at present.
+
+## Client Route Security
 
 Client Side Security (CSS) is managed using a pattern inspired by the [angular-client-side-auth](https://github.com/fnakstad/angular-client-side-auth) repository.  The short description of the CSA pattern is:
 
@@ -89,26 +96,22 @@ angular.module('app').run(['$rootScope','$location','security', function($rootSc
 }]);
 ```
 
-Server Request Security
---------------------------
-Not yet implemented.  Looking for ideas and strategies to implement this whilst adhering to DRY.
+# Future Enterprise App Features
+* Server Endpoint Security
+* Python and Java backends
 
+# Testing
 
-Server Authentication Security
-------------------------------
-Implemented using [PassportJS](http://passportjs.org/) using only the passport-google authenticaon strategy at present.
-
-
-Unit and e2e Tests
-------------------------------
+**Unit and e2e Tests**
 Example unit and e2e tests are added to the project.  These illustrate how automatic testing can be incorporated into the default grunt default workflow.  Simply run the project and any time a source or test file changes the tests will be re-run.
 
 
-Continuous Integration CI
+# Continuous Integration CI
 --------------------
 There is a ```.travis.yml``` file for CI at [Travis-CI.com](www.travis-ci.com)
 
-## License
+
+# License
 ```
 The MIT License (MIT)
 
