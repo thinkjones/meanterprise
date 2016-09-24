@@ -14,3 +14,4 @@ client/src/.htaccess
 server/node_modules/grunt-cli/
 .bin
 client/src/bower_components/
+.env

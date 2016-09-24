@@ -6,11 +6,12 @@
 // Applicaiton config used to share between modules.
 var deployed_env = process.argv[2];
 var config;
+require('dotenv').config()
 
 if (deployed_env !== undefined && deployed_env.toLowerCase() === 'prod') {
     config = require('./config/config');
 } else {
-    config = require('./config/configDev');
+  config = require('./config/config');
 }
 
 //Node dependency - File System
